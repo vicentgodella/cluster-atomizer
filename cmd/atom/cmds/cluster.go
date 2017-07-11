@@ -28,6 +28,7 @@ func init() {
 	clusterCommand.PersistentFlags().StringVarP(&clusterConfig.project, "project", "j", "", "Project name")
 
 	clusterCommand.AddCommand(listCommand)
+	clusterCommand.AddCommand(describeCommand)
 }
 
 func getAutoscalingClient(parameters *CommandParameters) *autoscaling.AutoScaling {
