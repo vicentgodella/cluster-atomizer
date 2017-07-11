@@ -1,0 +1,146 @@
+{
+	"ImportPath": "github.com/vicentgodella/cluster-atomizer",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/awserr",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/awsutil",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/client",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/client/metadata",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/corehandlers",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/credentials",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/defaults",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/ec2metadata",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/request",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/session",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/endpoints",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol/query",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol/query/queryutil",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol/rest",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/signer/v4",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/waiter",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/service/autoscaling",
+			"Comment": "v1.1.36",
+			"Rev": "8f2725740345a0561fa09669f5f75f905404ef8b"
+		},
+		{
+			"ImportPath": "github.com/go-ini/ini",
+			"Comment": "v0-54-g2e44421",
+			"Rev": "2e44421e256d82ebbf3d4d4fcabe8930b905eff3"
+		},
+		{
+			"ImportPath": "github.com/inconshreveable/mousetrap",
+			"Rev": "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
+		},
+		{
+			"ImportPath": "github.com/jmespath/go-jmespath",
+			"Comment": "0.2.2-12-g0b12d6b",
+			"Rev": "0b12d6b521d83fc7f755e7cfc1b1fbdd35a01a74"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-runewidth",
+			"Comment": "v0.0.1-10-g737072b",
+			"Rev": "737072b4e32b7a5018b4a7125da8d12de90e8045"
+		},
+		{
+			"ImportPath": "github.com/olekukonko/tablewriter",
+			"Rev": "bdcc175572fd7abece6c831e643891b9331bc9e7"
+		},
+		{
+			"ImportPath": "github.com/spf13/cobra",
+			"Rev": "6a8bd97bdb1fc0d08a83459940498ea49d3e8c93"
+		},
+		{
+			"ImportPath": "github.com/spf13/pflag",
+			"Rev": "367864438f1b1a3c7db4da06a2f55b144e6784e0"
+		}
+	]
+}
